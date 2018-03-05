@@ -51,9 +51,8 @@ end
 def runner
   welcome
   total = initial_round
-  choice = hit?(total)
   until total > 21 
-    total += choice(total)
+    total += hit?(total)
   end 
   puts "Sorry, you hit #{total}. Thanks for playing!"
 end
