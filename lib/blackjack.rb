@@ -53,6 +53,7 @@ def runner
   total = initial_round
   until total > 21 
     total += hit?(total)
+    
   end 
   puts "Sorry, you hit #{total}. Thanks for playing!"
 end
