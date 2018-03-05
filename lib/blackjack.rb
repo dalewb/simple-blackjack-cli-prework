@@ -55,6 +55,6 @@ def runner
   until choice > 21 
     choice(choice)
   end 
-  
+  puts "Game Over."
 end
     
